@@ -17,7 +17,284 @@
     <title>Welcome To Vera</title>
   </head>
   <body>
-    <h2>Vera Website</h2>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="images/logo.svg" alt="Yavin Office Design" width="124" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropwdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#solutions" class="nav-link">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details" class="nav-link">Details</a>
+            </li>
+            <li class="nav-item">
+              <a href="#expertise" class="nav-link">Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="https://facebook.com" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="https://twitter.com" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x text-white"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header position-relative">
+      <img
+        src="images/vertical-decoration-left.svg"
+        class="vertical-decoration position-absolute d-none d-md-block"
+        alt=""
+      />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 pt-5">
+            <h1 class="xl-text mt-5">
+              Software Solutions For
+              <span class="text-primary fw-bold replace-me"
+                >Small Business, Startups, Enterprise</span
+              >
+            </h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              natus, reprehenderit dicta facere recusandae esse.
+            </p>
+            <a href="#" class="btn btn-primary text-white">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Partners -->
+    <section class="partners py-4 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <h6 class="text-center mb-4 text-uppercase">Our Partners</h6>
+            <div
+              class="d-flex justify-content-center align-items-center text-center"
+            >
+              <div>
+                <img
+                  src="images/partner-logo-1.png"
+                  class="mx-4"
+                  alt="partner"
+                />
+              </div>
+              <div class="d-none d-sm-block">
+                <img
+                  src="images/partner-logo-2.png"
+                  class="mx-4"
+                  alt="partner"
+                />
+              </div>
+              <div class="d-none d-md-block">
+                <img
+                  src="images/partner-logo-3.png"
+                  class="mx-4"
+                  alt="partner"
+                />
+              </div>
+              <div class="d-none d-lg-block">
+                <img
+                  src="images/partner-logo-4.png"
+                  class="mx-4"
+                  alt="partner"
+                />
+              </div>
+              <div class="d-none d-lg-block">
+                <img
+                  src="images/partner-logo-5.png"
+                  class="mx-4"
+                  alt="partner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Area -->
+    <section id="contact" class="contact my-7">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="fw-bold">Get More Information</h2>
+            <hr class="hr-heading" />
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              labore dignissimos quidem rem facere et!
+            </p>
+            <ul class="list-unstyled lh-lg">
+              <li class="d-flex align-items-center">
+                <i class="fas fa-check text-primary mx-3"></i>
+                <div>
+                  <strong>Customized Solutions</strong> Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit.
+                </div>
+              </li>
+              <li class="d-flex align-items-center">
+                <i class="fas fa-check text-primary mx-3"></i>
+                <div>
+                  <strong>Seamless integration</strong> Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit.
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1">
+            <form>
+              <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control bg-secondary"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="email"
+                  class="form-control bg-secondary"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="mb-4">
+                <input
+                  type="phone"
+                  class="form-control bg-secondary"
+                  placeholder="Enter Phone"
+                />
+              </div>
+              <div class="mb-4">
+                <select name="interested id="interested" class="form-control bg-secondary">
+                  <option>Interested In...</option>
+                  <option value="erp">ERP Solution</option>
+                  <option value="crm">CRM Solution</option>
+                  <option value="cms">CMS Solution</option>
+                  <option value="sfa">SFA Solution</option>
+                </select>
+              </div>
+              <div class="mb-4 form-check">
+                <input type="checkbox" id="agree-check">
+                <label class="form-check-label" for="agree-check">
+                  I agree to the <a href="privacy.html">Privacy Policy</a>
+                </label>
+              </div>
+              <div class="d-grid gap-2">
+                <input type="submit" value="submit" class="btn btn-primary text-white">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section id="solutions" class="solutions my-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+            <h5>
+              <span class="badge bg-primary rounded-0 text-uppercase">
+                Solutions
+              </span>
+            </h5>
+            <h2 class="fw-bold">
+              Vera Provides Software Solutions for Business Acceleration
+            </h2>
+          </div>
+        </div>
+        <!-- Solutions Row 1 -->
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card bg-secondary">
+              <img src="images/solution-1.jpg" alt="solution" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">ERP Software Solutions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, corporis.
+                </p>
+                <div class="badge bg-primary p-2 text-uppercase">Management</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card bg-secondary">
+              <img src="images/solution-2.jpg" alt="solution" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">CRM Software Solutions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, corporis.
+                </p>
+                <div class="badge bg-dark p-2 text-uppercase">Marketing</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Solutions Row 2 -->
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card bg-secondary">
+              <img src="images/solution-3.jpg" alt="solution" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">SFA Software Solutions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, corporis.
+                </p>
+                <div class="badge bg-primary p-2 text-uppercase">Management</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card bg-secondary">
+              <img src="images/solution-4.jpg" alt="solution" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">WMS Software Solutions</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, corporis.
+                </p>
+                <div class="badge bg-dark p-2 text-uppercase">Marketing</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="js/replaceme.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
