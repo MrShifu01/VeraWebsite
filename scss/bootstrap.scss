@@ -47,7 +47,13 @@ $btn-padding-x-lg: $button-padding-x;
 
 $navbar-toggler-border-radius: 5px;
 
-
+$input-radius: 0px;
+$input-btn-padding-x: 1rem;
+$input-btn-padding-y: 1rem;
+$input-border-radius: $input-radius;
+$input-border-radius-lg: $input-radius;
+$input-border-radius-sm: $input-radius;
+$input-border-color: #666;
 
 
 @import '../node_modules/bootstrap/scss/bootstrap';
